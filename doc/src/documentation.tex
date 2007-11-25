@@ -38,7 +38,6 @@ ternary sequency having the signals 0, +1, -1 by the following way:
 \begin{itemize}
 \item Inputs of 1 are coded as +1 or -1 alternately.
 \item Inputs of 0 are coded always as 0. 
-\item Entradas iguais a zero são codificadas como zero; 
 \end{itemize}
 
 Example: 
@@ -55,9 +54,6 @@ ternary sequency having the signals 0, +1, -1 by the following way:
 \begin{itemize}
 \item Inputs of 1 are coded as either +1 or -1.
 \item Paired inputs of 0 are coded as either +1+1 or -1-1.   
-\item Entradas iguais a zero, isoladas, isto é, 
-seguidas de um e que não foram codificadas em conjunto com outro
-zero (formando +1+1 ou -1-1), são codificadas como zero; 
 \item Isolated inputs of 0, ie, inputs of 0 not followed by 1 which
 weren't paired to another 0 (thus forming +1+1 or -1-1) are coded 
 as 0. 
@@ -259,6 +255,7 @@ $S_1 = q_1. q_2' + E'.q_1'. q_2 $
 
 \vspace{10pt}
 %\hrule
+
 \section{HDB1 Decoder. }
 
 \begin{figure}[H]
